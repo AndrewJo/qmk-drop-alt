@@ -57,13 +57,45 @@ section above.
 
 ![Outrun](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/outrun-sunset.svg)
 
+#### Supported Lighting Commands
+
+- `Fn` + `W`: Increase brightness
+- `Fn` + `S`: Decrease brightness
+- `Fn` + `T`: Increase saturation
+- `Fn` + `G`: Decrease saturation
+- `Fn` + `Z`: Toggle: All LEDs / Key LEDs / Underglow LEDs / LED Off
+
 ### Game Mode: FPS
 
 ![Game - FPS](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/game-fps.svg)
 
+#### Supported Lighting Commands
+
+- `Fn` + `W`: Increase brightness
+- `Fn` + `S`: Decrease brightness
+- `Fn` + `R`: Increase background hue value
+- `Fn` + `F`: Decrease background hue value
+- `Fn` + `E`: Increase foreground hue value (WASD keys)
+- `Fn` + `Q`: Decrease foreground hue value (WASD keys)
+- `Fn` + `T`: Increase saturation
+- `Fn` + `G`: Decrease saturation
+- `Fn` + `Z`: Toggle: All LEDs / Key LEDs / Underglow LEDs / LED Off
+
 ### Game Mode: MOBA
 
 ![Game - MOBA](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/game-moba.svg)
+
+#### Supported Lighting Commands
+
+- `Fn` + `W`: Increase brightness
+- `Fn` + `S`: Decrease brightness
+- `Fn` + `R`: Increase background hue value
+- `Fn` + `F`: Decrease background hue value
+- `Fn` + `E`: Increase foreground hue value (WASD keys)
+- `Fn` + `Q`: Decrease foreground hue value (WASD keys)
+- `Fn` + `T`: Increase saturation
+- `Fn` + `G`: Decrease saturation
+- `Fn` + `Z`: Toggle: All LEDs / Key LEDs / Underglow LEDs / LED Off
 
 [releases]: https://github.com/AndrewJo/qmk-drop-alt/releases
 [qmk-toolbox]: https://github.com/qmk/qmk_toolbox
