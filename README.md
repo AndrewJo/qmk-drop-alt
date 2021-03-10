@@ -51,6 +51,12 @@ This will create a binary file that is named as `massdrop_alt_AndrewJo.bin`.
 You can flash this binary using the tools mentioned in the [Usage](#usage)
 section above.
 
+## LED Matrix Themes
+
+### Outrun Sunset
+
+![Outrun](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/outrun-sunset.svg)
+
 [releases]: https://github.com/AndrewJo/qmk-drop-alt/releases
 [qmk-toolbox]: https://github.com/qmk/qmk_toolbox
 [mdloader]: https://github.com/Massdrop/mdloader
