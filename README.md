@@ -57,6 +57,10 @@ section above.
 
 ![Outrun](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/outrun-sunset.svg)
 
+### Game Mode: First Person Shooter
+
+![Game - FPS](https://raw.githubusercontent.com/AndrewJo/qmk-drop-alt/master/game-fps.svg)
+
 [releases]: https://github.com/AndrewJo/qmk-drop-alt/releases
 [qmk-toolbox]: https://github.com/qmk/qmk_toolbox
 [mdloader]: https://github.com/Massdrop/mdloader
