@@ -70,7 +70,7 @@ static bool outrun_sunset(effect_params_t* params) {
     rgb_matrix_set_color(i, rgb.r, rgb.g, rgb.b);
   }
 
-  return led_max < DRIVER_LED_TOTAL;
+  return rgb_matrix_check_finished_leds(led_max);
 }
 
 // First-person shooter mode. Lights up WASD keys
@@ -108,7 +108,7 @@ static bool game_fps(effect_params_t* params) {
     }
   }
 
-  return led_max < DRIVER_LED_TOTAL;
+  return rgb_matrix_check_finished_leds(led_max);
 }
 
 // MOBA mode (LoL, HotS). Lights up QWERDF keys.
@@ -144,7 +144,7 @@ static bool game_moba(effect_params_t* params) {
     }
   }
 
-  return led_max < DRIVER_LED_TOTAL;
+  return rgb_matrix_check_finished_leds(led_max);
 }
 
 #endif // RGB_MATRIX_CUSTOM_EFFECT_IMPLS
